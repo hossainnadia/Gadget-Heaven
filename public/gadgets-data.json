@@ -1,0 +1,323 @@
+[
+  {
+    "id": 101,
+    "name": "Dell XPS Pro Max",
+    "image": "https://i.ibb.co.com/vvY9Y8h/Dell-XPS-Pro-Max.jpg",
+    "category": "Laptops",
+    "price": 999.99,
+    "description": "High-performance Dell laptop with an advanced display and long-lasting battery.",
+    "Specification": [
+      "15.6-inch OLED display|| ",
+      "Intel i7 processor|| ",
+      "16GB RAM|| ",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 102,
+    "name": "ASUS VivoBook Ultra",
+    "image": "https://i.ibb.co.com/vZ2tTwW/ASUS-Vivo-Book-Ultra.jpg",
+    "category": "Laptops",
+    "price": 599.99,
+    "description": "Affordable ASUS laptop with a sleek design and powerful performance.",
+    "specification": [
+      "14-inch Full HD display|| ",
+      "Intel i5 processor|| ",
+      "8GB RAM|| ",
+      "256GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "id": 103,
+    "name": "Lenovo ThinkPad X1",
+    "image": "https://i.ibb.co.com/qpTk03R/Lenovo-Think-Pad-X1.jpg",
+    "category": "Laptops",
+    "price": 899.99,
+    "description": "Lightweight Lenovo ThinkPad with high-resolution display and smooth performance.",
+    "Specification": [
+      "13.3-inch QHD display|| ",
+      "Intel i7 processor|| ",
+      "16GB RAM|| ",
+      "512GB SSD"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "id": 104,
+    "name": "ASUS ZenBook Flip",
+    "image": "https://i.ibb.co.com/ChRHXDV/ASUS-Zen-Book-Flip.jpg",
+    "category": "Laptops",
+    "price": 749.99,
+    "description": "Versatile ASUS laptop with touchscreen and flexible hinge design.",
+    "Specification": [
+      "14-inch OLED touchscreen|| ",
+      "Intel i5 processor|| ",
+      "8GB RAM|| ",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 105,
+    "name": "Dell Inspiron Compact",
+    "image": "https://i.ibb.co.com/Wz5dtkT/Dell-Inspiron-Compact.jpg",
+    "category": "Laptops",
+    "price": 459.99,
+    "description": "Compact Dell laptop with essential features for everyday tasks.",
+    "Specification": [
+      "13.3-inch Full HD display|| ",
+      "Intel i3 processor|| ",
+      "8GB RAM|| ",
+      "256GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "id": 106,
+    "name": "Lenovo Legion Y540",
+    "image": "https://i.ibb.co.com/51gN78p/Lenovo-Legion-Y540-2.jpg",
+    "category": "Laptops",
+    "price": 1099.99,
+    "description": "Powerful Lenovo gaming laptop with high refresh rate display and advanced graphics.",
+    "Specification": [
+      "15.6-inch FHD 144Hz display|| ",
+      "Intel i7 processor|| ",
+      "16GB RAM|| ",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 201,
+    "name": "iPhone 13 Pro",
+    "image": "https://i.ibb.co.com/QQtmhV2/Iphone13-Pro.jpg",
+    "category": "Smartphones",
+    "price": 999.99,
+    "description": "Apple's advanced iPhone model with triple-camera system and 5G support.",
+    "Specification": [
+      "6.1-inch OLED display|| ",
+      "Triple-camera system|| ",
+      "5G support|| ",
+      "128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 202,
+    "name": "iPhone SE (2023)",
+    "image": "https://i.ibb.co.com/3yff94v/iphone-se-2023.jpg",
+    "category": "Smartphones",
+    "price": 429.99,
+    "description": "Affordable iPhone model with classic design and fast performance.",
+    "Specification": [
+      "4.7-inch Retina display|| ",
+      "Single-camera system|| ",
+      "4G LTE|| ",
+      "64GB storage"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "id": 206,
+    "name": "iPhone 12 Mini",
+    "image": "https://i.ibb.co.com/878q73N/i-Phone-12-Mini.jpg",
+    "category": "Smartphones",
+    "price": 699.99,
+    "description": "Compact iPhone 12 Mini with dual-camera system and excellent performance.",
+    "Specification": [
+      "5.4-inch Super Retina XDR display|| ",
+      "Dual-camera system|| ",
+      "5G support|| ",
+      "64GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 203,
+    "name": "Samsung Galaxy S21",
+    "image": "https://i.ibb.co.com/mHqgq6N/Samsung-Galaxy-S21.jpg",
+    "category": "Smartphones",
+    "price": 799.99,
+    "description": "Flagship Samsung phone with pro-grade camera and smooth performance.",
+    "Specification": [
+      "6.2-inch AMOLED display|| ",
+      "Triple-lens camera|| ",
+      "5G support|| ",
+      "128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 204,
+    "name": "iPhone 14",
+    "image": "https://i.ibb.co.com/SQpmYJ4/i-Phone-14.jpg",
+    "category": "Smartphones",
+    "price": 899.99,
+    "description": "Apple's iPhone 14 with improved camera system and enhanced battery life.",
+    "Specification": [
+      "6.1-inch Super Retina XDR display|| ",
+      "Dual-camera system|| ",
+      "A15 Bionic chip|| ",
+      "128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 205,
+    "name": "Google Pixel 6",
+    "image": "https://i.ibb.co.com/4tB4F4N/Google-Pixel-6.jpg",
+    "category": "Smartphones",
+    "price": 599.99,
+    "description": "Innovative Pixel phone with excellent camera and Google's custom processor.",
+    "Specification": [
+      "6.4-inch OLED display|| ",
+      "Dual-lens camera|| ",
+      "5G support|| ",
+      "128GB storage"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+
+  {
+    "id": 301,
+    "name": "Sony WF-1000XM4 Earbuds",
+    "image": "https://i.ibb.co.com/hCGmST1/sony-wf-1000xm4-earbuds.jpg",
+    "category": "Earbuds",
+    "price": 279.99,
+    "description": "Noise-canceling Sony earbuds with high-fidelity sound quality.",
+    "Specification": [
+      "Active noise cancellation|| ",
+      "24-hour battery life with case|| ",
+      "Bluetooth 5.2|| ",
+      "IPX4 water resistance"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 302,
+    "name": "Apple AirPods Pro 2",
+    "image": "https://i.ibb.co.com/v1NksCk/apple-Earpods-Pro-2.jpg",
+    "category": "Earbuds",
+    "price": 249.99,
+    "description": "Apple's premium wireless earbuds with active noise cancellation and spatial audio.",
+    "Specification": [
+      "Active noise cancellation|| ",
+      "24-hour battery life with case|| ",
+      "Bluetooth 5.3|| ",
+      "IPX4 water resistance"
+    ],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "id": 303,
+    "name": "Jabra Elite 75t",
+    "image": "https://i.ibb.co.com/G9PsX42/Jabra-Elite-75t.jpg",
+    "category": "Earbuds",
+    "price": 149.99,
+    "description": "Compact true wireless earbuds with customizable sound and noise isolation.",
+    "Specification": [
+      "4-microphone call technology|| ",
+      "Active noise cancellation|| ",
+      "Up to 7.5 hours of battery life|| ",
+      "Fast charging case"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 401,
+    "name": "Apple Watch Series 8",
+    "image": "https://i.ibb.co.com/BwBSb44/Apple-Watch-Series-8.jpg",
+    "category": "Smartwatches",
+    "price": 399.99,
+    "description": "Apple's latest smartwatch with advanced health monitoring and always-on display.",
+    "Specification": [
+      "45mm Retina display|| ",
+      "Blood oxygen sensor|| ",
+      "ECG app|| ",
+      "Water resistant to 50 meters"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 402,
+    "name": "Samsung Galaxy Watch 5",
+    "image": "https://i.ibb.co.com/gP2scn3/Samsung-Galaxy-Watch-5.jpg",
+    "category": "Smartwatches",
+    "price": 279.99,
+    "description": "Feature-rich Samsung smartwatch with fitness tracking and long battery life.",
+    "Specification": [
+      "1.4-inch Super AMOLED display|| ",
+      "Body composition analysis|| ",
+      "GPS tracking|| ",
+      "IP68 water resistance"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 403,
+    "name": "Garmin Forerunner 955",
+    "image": "https://i.ibb.co.com/6DrLCmB/Garmin-Forerunner-955.jpg",
+    "category": "Smartwatches",
+    "price": 499.99,
+    "description": "Premium Garmin sports watch for running, with solar charging and performance metrics.",
+    "Specification": [
+      "1.3-inch sunlight-visible display|| ",
+      "Multi-band GPS|| ",
+      "Heart rate monitor|| ",
+      "Up to 20 days battery life with solar"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 404,
+    "name": "Fitbit Versa 4",
+    "image": "https://i.ibb.co.com/c8PG762/Fitbit-Versa-4.jpg",
+    "category": "Smartwatches",
+    "price": 229.99,
+    "description": "Versatile Fitbit smartwatch with 24/7 heart rate monitoring and sleep tracking.",
+    "Specification": [
+      "1.58-inch color touchscreen|| ",
+      "Daily readiness score|| ",
+      "Built-in GPS|| ",
+      "Water resistant to 50 meters"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 405,
+    "name": "Amazfit GTR 3 Pro",
+    "image": "https://i.ibb.co.com/25p6P9y/Amazfit-GTR-3-Pro.jpg",
+    "category": "Smartwatches",
+    "price": 199.99,
+    "description": "Stylish Amazfit smartwatch with comprehensive health tracking and customizable display.",
+    "Specification": [
+      "1.45-inch AMOLED display|| ",
+      "Alexa built-in|| ",
+      "150+ sports modes|| ",
+      "5 ATM water resistance"
+    ],
+    "availability": true,
+    "rating": 4.4
+  }
+]
