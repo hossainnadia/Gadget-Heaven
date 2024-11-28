@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ShoppingCart, Heart } from "lucide-react";
 
@@ -18,6 +18,8 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+  const location = useLocation();
+
   return (
     <header
       className={`bg-brand-purple py-8 container mx-auto px-8 rounded-t-3xl flex justify-between ${

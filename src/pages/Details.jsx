@@ -1,9 +1,13 @@
 import { Star, ShoppingCart, Heart } from "lucide-react";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { CartContext } from "./context/Cart-context";
+import { useContext } from "react";
 
 export default function Details() {
   const [gadgetDetails, setGadgetDetails] = useState({});
+  const context = useContext(CartContext);
+
   const perams = useParams();
 
   async function fetchGadgetDetails() {
@@ -20,7 +24,7 @@ export default function Details() {
 
   return (
     <section className="pb-[18rem]">
-      <div className="bg-brand-purple rounded-2xl text-white text-center grid justify-center pb-[14rem] pt-10 ">
+      <div className="bg-brand-purple rounded-b-2xl text-white text-center grid justify-center pb-[18rem] pt-10 ">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-balance leading-[1.25] pb-8 ">
           Product Details
         </h1>
@@ -29,13 +33,13 @@ export default function Details() {
           level. From smart devices to the coolest accessories, we have it all!
         </p>
       </div>
-      <div className="bg-white border p-6 rounded-2xl shadow-sm lg:h-[35rem] container mx-auto gap-5 -mt-[12rem] max-w-6xl grid md:grid-cols-3">
+      <div className="bg-white border p-6 rounded-2xl shadow-sm container mx-auto gap-5 -mt-[14rem] max-w-7xl grid md:grid-cols-3">
         <img
           className="size-full object-center object-cover rounded-2xl border"
           src={gadgetDetails?.image}
           alt=""
         />
-        <div className="col-span-2 grid justify-items-start items-center">
+        <div className="col-span-2 grid justify-items-start items-center space-y-4 space-x-4">
           <h2 className="text-3xl font-semibold">{gadgetDetails?.name}</h2>
           <span className="font-semibold text-xl opacity-80">
             ${gadgetDetails?.price}
@@ -47,11 +51,11 @@ export default function Details() {
             {gadgetDetails?.description}
           </p>
           <div>
-            <h3>Specification</h3>
-            <ol className="text-lg opacity-80 space-y-1 leading-relaxed text-pretty">
-              {gadgetDetails?.specifications?.map((specification, index) => (
-                <li key={specification}>
-                  {index + 1}. {specification}
+            <h3 className="font-semibold text-2xl">Specification</h3>
+            <ol className="text-lg opacity-80 space-y-1 leading-relaxed text-pretty mt-6">
+              {gadgetDetails?.Specification?.map((Specification, index) => (
+                <li key={Specification}>
+                  {index + 1}. {Specification}
                 </li>
               ))}
             </ol>
@@ -76,7 +80,10 @@ export default function Details() {
             </ul>
           </div>
           <div className=" flex items-center gap-x-2 pt-8">
-            <button className="text-white flex items-center gap-x-2 bg-brand-purple text-lg font-semibold rounded-full px-6 py-2">
+            <button
+              onClick={() => context.addGadgetToCart(gadgetDetails)}
+              className="text-white hover:scale-95 transition-transform flex items-center gap-x-2 bg-brand-purple text-lg font-semibold rounded-full px-6 py-2"
+            >
               Add to Card
               <ShoppingCart className="size-4.2" />
             </button>
